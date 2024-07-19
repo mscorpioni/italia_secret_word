@@ -1,0 +1,73 @@
+.tip {
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tip span,
+.guesses span,
+.points span {
+  color: bisque;
+  font-weight: bold;
+}
+
+.tip {
+  font-size: x-large;
+}
+
+.wordContainer,
+.tip span {
+  border: solid 3px;
+  border-color: bisque;
+  padding: 10px;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  gap: 3px;
+}
+
+.letter,
+.blankSquare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkcyan;
+  padding: 10px;
+  background-color: beige;
+  height: 30px;
+  width: 30px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.letterContainer input {
+  text-align: center;
+  max-width: 30px;
+  color: darkcyan;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  background-color: beige;
+  outline: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.showWin {
+  color: bisque;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  color: aliceblue;
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+}
+
+button {
+  font-size: large;
+  font-weight: 600;
+  background-color: bisque;
+  color: cadetblue;
+  padding: 15px 45px;
+  border: 0;
+  border-style: none solid;
+  border-radius: 25px;
+  transition-duration: 200ms;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+}
